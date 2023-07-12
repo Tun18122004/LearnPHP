@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <form action="http://localhost:3000/Test/Bài%201.5-PHP2.php" method="post">
+            <h1>THÔNG TIN ĐẶT CHỖ</h1>
+            <p>Số lượng tham dự bữa tiệc của quý khách: </p><input type="text" name="sl">
+            <p>Loại tiêc: </p>
+            <input type="checkbox" id="loaitiec1" name="lt" value="Tiệc Sáng">
+            <label for="lt1">Tiệc sáng</label>
+            <input type="checkbox" id="loaitiec2" name="lt" value="Tiệc Chiều">
+            <label for="lt2">Tiệc chiều</label>
+            <input type="checkbox" id="loaitiec3" name="lt" value="Tiệc Tối">
+            <label for="lt3">Tiệc tối</label>
+
+            <p>Địa điểm: </p>
+            <input type="checkbox" id="dd1" name="dd" value="Trong Nhà">
+            <label for="dd1">Trong nhà</label>
+            <input type="checkbox" id="dd2" name="dd" value="Ngoài Trời">
+            <label for="dd2">Ngoài trời</label>
+            <p>Tên quý khách: </p><input type="text" name="ten">
+            <p>Địa chỉ liên lạc: </p><input type="text" name="ll"> <br>
+            <p>Độ tuổi: </p>
+            <select name="dotuoi" id="dotuoi">
+                <option value="Dưới 18 tuổi">Dưới 18 tuổi</option>
+                <option value="Từ 19 đến 34 tuổi">Từ 19 đến 34 tuổi</option>
+                <option value="Từ 35 đến 54 tuổi">Từ 35 đến 54 tuổi</option>
+                <option value="Trên 55 tuổi">Trên 55 tuổi</option>
+
+            </select>
+            <p>Giới tính: </p>
+            <input type="radio" id="nam" name="gender" value="Male">
+            <label for="nam">Male</label>
+            <input type="radio" id="nu" name="gender" value="Female">
+            <label for="nu">Female</label>
+            <p>Quý khách biết đến chúng tôi qua: </p><br>
+            <select name="phuongtien" id="phuongtien">
+                <option value="BaoChi">Báo Chí</option>
+                <option value="DaiPhatThanh">Đài Phát Thanh</option>
+                <option value="TV">Ti Vi</option>
+            </select>
+           <br>
+           <p>Các yêu cầu của quý khách:</p><input type="text" name="yeucau"><br>
+           <input type="submit" name="upload" value="Đặt Chỗ">
+        </form>
+ 
+    </body>
+</html>
